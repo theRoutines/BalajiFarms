@@ -1,0 +1,41 @@
+{
+  "name": "dairy-platform-server",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "test": "vitest run",
+    "db:migrate": "node scripts/migrateSql.js",
+    "db:migrate:dev": "node scripts/migrateSql.js",
+    "db:seed": "node scripts/seedSql.js",
+    "db:migrate:sql": "node scripts/migrateSql.js",
+    "db:seed:sql": "node scripts/seedSql.js"
+  },
+  "dependencies": {
+    "@socket.io/redis-adapter": "^8.3.0",
+    "bcryptjs": "^3.0.2",
+    "bullmq": "^5.58.5",
+    "cloudinary": "^2.11.0",
+    "cookie": "^1.0.2",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.1.0",
+    "ioredis": "^5.7.0",
+    "jsonwebtoken": "^9.0.2",
+    "nodemailer": "^7.0.6",
+    "pg": "^8.23.1",
+    "rate-limit-redis": "^4.2.1",
+    "razorpay": "^2.9.6",
+    "socket.io": "^4.8.1",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "supertest": "^7.1.4",
+    "vitest": "^3.2.4"
+  }
+}
