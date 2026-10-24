@@ -1,6 +1,6 @@
-# Green Pasture Dairy
+# Balaji Farms
 
-Green Pasture Dairy is a dairy-farm e-commerce platform for ghee, mustard oil and groundnut oil. Phase 2 adds the core backend: validated configuration, cookie-based authentication, product catalog, delivery-zone checks, herd statistics, and admin catalog/zone/herd management.
+Balaji Farms is a dairy-farm e-commerce platform for ghee, mustard oil and groundnut oil. Phase 2 adds the core backend: validated configuration, cookie-based authentication, product catalog, delivery-zone checks, herd statistics, and admin catalog/zone/herd management.
 
 ## Architecture
 
