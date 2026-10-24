@@ -7,6 +7,8 @@
     "dev": "node --watch src/server.js",
     "start": "node src/server.js",
     "test": "vitest run",
+    "redis:flush": "node scripts/flushRedis.js",
+    "email:test": "node scripts/testEmail.js",
     "db:migrate": "node scripts/migrateSql.js",
     "db:migrate:dev": "node scripts/migrateSql.js",
     "db:seed": "node scripts/seedSql.js",
